@@ -1,0 +1,57 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: beige;
+    color: cadetblue;
+    font-family: sans-serif;
+}
+
+.list {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: coral;
+}
+
+header {
+    align-items: center;
+    margin: 10px;
+}
+
+.cover {
+    background-image: url("cover.jpg");
+    background-size: cover;
+    /* fit image*/
+    background-position: center;
+    /* center image */
+    background-repeat: no-repeat;
+    color: white;
+    /* text visible */
+    display: flex;
+    /* center text */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro {
+    color: darkslateblue;
+}
+
+.info {
+    flex: 1 30px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;   /* smooth effect */
+}
+.info:hover{
+        background-color: #e0e0e0;
+
+}
+
+@media (max-width: 768px) {
+    .info {
+        flex-direction: column;
+    }
+}
