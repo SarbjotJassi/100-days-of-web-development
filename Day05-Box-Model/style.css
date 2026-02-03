@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.box {
+    width: 300px;              /* Content width */
+    padding: 20px;             /* Space inside the box */
+    border: 5px solid #333;    /* Border around the box */
+    margin: 30px auto;         /* Space outside the box */
+    background-color: #b03535;
+    text-align: center;
+    box-sizing: border-box;/* Includes padding & border in width */
+}
