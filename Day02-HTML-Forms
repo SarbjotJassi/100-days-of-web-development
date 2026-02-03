@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>College Form</h1>
+    <form action="/process.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name here">
+        <br><br>
+        <label for="phone">phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone number here">
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="password" placeholder="Password here">
+        <br><br>
+        <label for="cpass">Confirm Password</label>
+        <input type="password" id="cpass" name="confirmpassword" placeholder="Confirm password">
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
