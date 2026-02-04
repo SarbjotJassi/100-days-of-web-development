@@ -7,5 +7,6 @@ This repository documents my 100-day web development learning challenge.
 - Day 03: About me page added basic html tags and added css.
 - Day 04:This task focuses on practicing basic CSS selectors.
 - Day 05:This task demonstrates the CSS box model properties used width,padding,margin,border.
+- Day 06:This task about units in css which are absolute and relatives units.
 
 
