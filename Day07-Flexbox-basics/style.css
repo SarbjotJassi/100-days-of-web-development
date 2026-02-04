@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 20px;    
+    min-height: 300px; /*use min height for align self(cross axiss depends) */
+
+}
+.card{
+    width: 200px;
+    height: 120px;
+    background-color: brown;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card.special-card{
+    display: flex;
+    align-self: flex-end;
+}
