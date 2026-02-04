@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Units</title>
+
+<style>
+/* -------- ROOT SETUP -------- */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* -------- SECTION 1 -------- */
+#div1 {
+  width: 100%;
+  height: 50vh;
+  background-color: yellow;
+  padding: 1rem;
+}
+
+/* -------- SECTION 2 -------- */
+#div2 {
+  width: 100%;
+  background-color: chocolate;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+/* -------- PARAGRAPH -------- */
+#para {
+  background-color: brown;
+  width: 100%;
+  max-width: 40rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* -------- RESPONSIVE BREAKPOINTS -------- */
+
+/* Tablet and above */
+@media (min-width: 768px) {
+  #div1 {
+    height: 60vh;
+  }
+
+  #para {
+    width: 60%;
+  }
+}
+
+/* Desktop and above */
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #div1 {
+    height: 70vh;
+  }
+
+  #para {
+    width: 50%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div id="div1">
+  <h1>Sizing</h1>
+  I’m practising about units
+</div>
+
+<div id="div2">
+  Hey I’m second div
+  <p id="para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio suscipit earum iusto soluta tempore voluptate dolorem repellendus nihil ad placeat accusantium blanditiis inventore voluptatem vel velit.
+  </p>
+</div>
+
+</body>
+</html>
